@@ -4,7 +4,7 @@ export default {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleNameMapper: {
-    // Mock CSS and image imports
+    // mock CSS and image imports
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
   setupFilesAfterEnv: ['./src/setupTests.js'],
